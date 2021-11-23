@@ -28,4 +28,13 @@ header{
    padding: 300px;
     
 }
+#btn{
+    padding: 10px;
+    border:1px solid ;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
 
