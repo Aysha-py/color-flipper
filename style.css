@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    
+}
+.navlist ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   
+     
+}
+.navlist li{
+
+    margin: 20px;
+}
+
+.flipper-body{
+   
+   text-align: center; 
+   margin: auto;
+   padding: 300px;
+    
+}
+
