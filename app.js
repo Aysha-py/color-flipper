@@ -14,11 +14,20 @@ function getRandomNumber(){
 }
 
 function colorsButton(){
+    s = document.getElementById("flip-body").style
+      f = false;
+    c1= "yellow"
+    c2= "black"
 
+  
+      
+    setInterval(function() {
+        s.backgroundColor = f ? c1 : c2;
+        s.color = f ? c2 : c1;
+        f = !f;
+  }, 1000);
 
-    const randomNumber = getRandomNumber();
-
-    document.body.style.backgroundColor = colors[randomNumber];
+    
 }
 function plainButton(){
     document.body.style.backgroundColor = "white"
